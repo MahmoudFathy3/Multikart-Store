@@ -1,0 +1,53 @@
+// Start About
+.About{
+  overflow:hidden;
+    .About-List{
+    display: flex;
+    flex-wrap: wrap;
+    .info{
+      flex: 25%;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      @media (max-width: 767px) {
+        &{
+          flex: 100%;
+        }
+      }
+      @media (min-width: 768px)  and (max-width: 1199px) {
+        &{
+          flex: 50%;
+        }
+      }
+      .About-img{
+        cursor: pointer;
+        img{
+          width: 100%;
+          transform: scale(.97)
+        }
+      }
+      &:hover .About-img img{
+        transform: scale(1)
+      }
+
+      .info-List{
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+        z-index: 1;
+        span{
+          font-size: 20px;
+          font-weight: bold;
+          color: #333;
+        }
+        h3{
+          color: #FFF;
+          font-weight: bold;
+        }
+          }
+      
+    }
+  }
+}

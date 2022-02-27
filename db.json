@@ -1,0 +1,382 @@
+{
+  "lang": {
+    "en": {
+      "dir": "ltr",
+      "symbol": "en",
+      "header": "Welcome to Our store Multikart",
+      "nav": [
+        { "name": "Home" },
+        { "name": "Shop" },
+        { "name": "Products" },
+        { "name": "Features" },
+        { "name": "Pages" },
+        { "name": "Blogs" }
+      ],
+      "Logo": [
+        {"image" : "./img/18.png"},
+        {"discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
+      ],
+      "slideShow": [
+        {
+          "id": 1,
+          "name": "Headsets For All Styles",
+          "about": "Starting $19",
+          "image": "./img/8(1).jpg",
+          "button": "Shop Now"
+        },
+        {
+          "id": 2,
+          "name": "Furnishing Deals",
+          "about": "Up To 70% OFF",
+          "image": "./img/12(1).jpg",
+          "button": "Shop Now"
+        }
+      ],
+      "abouts": [
+        {
+          "id": 1,
+          "discount": "save 30%",
+          "name": "Woman",
+          "image": "./img/5-c73dd261c1c941b269fbcfb9fc765c65.jpg"
+        },
+        {
+          "id": 2,
+          "discount": "save 60%",
+          "name": "Headsets",
+          "image": "./img/10-d8ca5f380ceb0e3d2755fed37801d6b2.jpg"
+        },
+        {
+          "id": 3,
+          "discount": "save 60%",
+          "name": "WOMEN",
+          "image": "./img/9-799c3d822bf4312a36fa1ab9573ef232.jpg"
+        },
+        {
+          "id": 4,
+          "discount": "save 60%",
+          "name": "Jewellery",
+          "image": "./img/5-c73dd261c1c941b269fbcfb9fc765c65.jpg"
+        }
+      ],
+      "Heading_Products": {
+        "heading": "Special offer",
+        "name": "TOP COLLECTION",
+        "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      },
+      "Products": [
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/2.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/3.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/4.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/5.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/5.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/8.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/9.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/9.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/10.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        },
+        {
+          "name": "Shrug",
+          "price": "10400.00",
+          "image": "./img/11.jpg",
+          "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          "button": "Add To Cart"
+        }
+      ],
+      "Features": {
+        "headering": "Sales",
+        "discription": "FASHION TRENDS",
+        "discount": "SPECIAL OFFER",
+        "image": "./img/28.jpg"
+      },
+      "People_Famous": [
+        { "image": "./img/People/1.jpg" },
+        { "image": "./img/People/2.jpg" },
+        { "image": "./img/People/3.jpg" },
+        { "image": "./img/People/4.jpg" },
+        { "image": "./img/People/5.jpg" },
+        { "image": "./img/People/7.jpg" },
+        { "image": "./img/People/9.jpg" },
+        { "image": "./img/People/11.jpg" },
+        { "image": "./img/People/13.jpg" }
+      ],
+      "Footer": [
+          {
+            "name": "My Account",
+            "Items": [
+              { "li": "Womens" },
+              { "li": "Clothing" },
+              { "li": "Accessories" },
+              { "li": "Featured" }
+            ]
+          },
+          {
+            "name": "WHY WE CHOOSE",
+            "Items": [
+              { "li": "Shipping & Return" },
+              { "li": "Secure Shopping" },
+              { "li": "Gallary" },
+              { "li": "Affiliates" },
+              { "li": "Contacts" }
+            ]
+          },
+          {
+            "name": "STORE INFORMATION",
+            "Items": [
+              { "li": "Multikart Demo Store, Demo Store India 345-659" },
+              { "li": "Call Us: 123-456-7898" },
+              { "li": "Email Us: Support@Fiot.Com" },
+              { "li": "Fax: 123456" }
+            ]
+          }
+        ]
+      
+    },
+    "ar": {
+      "dir": "rtl",
+      "symbol": "ar",
+      "header": " مرحبا بكم في متجرنا ملتي كارت",
+      "nav": [
+        { "name": "الصفحه الرئيسيه" },
+        { "name": "محل" },
+        { "name": "منتجات" },
+        { "name": "سمات" },
+        { "name": "الصفحات" },
+        { "name": "المدونات" }
+      ],
+      "Logo": [
+        {"image" : "./img/18.png"},
+        {"discription": "مرحبا بكم في متجرنا ملتي كارت"}
+      ],
+      "slideShow": [
+        {
+          "id": 1,
+          "name": "سماعات لجميع الأنماط",
+          "about": "بدءًا من 19 دولارًا",
+          "image": "./img/8(1).jpg",
+          "button": "تسوق الآن"
+        },
+        {
+          "id": 2,
+          "name": "صفقات التأثيث",
+          "about": "70% بحد اقصي",
+          "image": "./img/12(1).jpg",
+          "button": "تسوق الآن"
+        }
+      ],
+      "abouts": [
+        {
+          "id": 1,
+          "discount": "حفظ ٣٠%",
+          "name": "امرأة",
+          "image": "./img/5-c73dd261c1c941b269fbcfb9fc765c65.jpg"
+        },
+        {
+          "id": 2,
+          "discount": "حفظ ٦٠%",
+          "name": "سماعات",
+          "image": "./img/10-d8ca5f380ceb0e3d2755fed37801d6b2.jpg"
+        },
+        {
+          "id": 3,
+          "discount": "حفظ ٦٠%",
+          "name": "امرأة",
+          "image": "./img/9-799c3d822bf4312a36fa1ab9573ef232.jpg"
+        },
+        {
+          "id": 4,
+          "discount": "حفظ ٦٠%",
+          "name": "مجوهرات",
+          "image": "./img/5-c73dd261c1c941b269fbcfb9fc765c65.jpg"
+        }
+      ],
+      "Heading_Products": {
+        "heading": "عرض خاص",
+        "name": "أفضل مجموعة",
+        "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+      },
+      "Products": [
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/2.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/3.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/4.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/5.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/5.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/8.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/9.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/9.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠",
+          "image": "./img/10.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        },
+        {
+          "name": "ملابس",
+          "price": "جنيه ١٠٤٠٠.٠٠ ",
+          "image": "./img/11.jpg",
+          "button": "أضف إلى العربة",
+          "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
+
+        }
+      ],
+      "Features": {
+        "headering": "مبيعات",
+        "discription": "اتجاهات الموضة",
+        "discount": "اتجاهات الموضة",
+        "image": "./img/28.jpg"
+      },
+      "People_Famous": [
+        { "image": "./img/People/1.jpg" },
+        { "image": "./img/People/2.jpg" },
+        { "image": "./img/People/3.jpg" },
+        { "image": "./img/People/4.jpg" },
+        { "image": "./img/People/5.jpg" },
+        { "image": "./img/People/7.jpg" },
+        { "image": "./img/People/9.jpg" },
+        { "image": "./img/People/11.jpg" },
+        { "image": "./img/People/13.jpg" }
+      ],
+      "Footer": [
+        {
+          "name": "حسابي",
+          "Items": [
+            { "li": "للنساء" },
+            { "li": "ملابس" },
+            { "li": "مستلزمات" },
+            { "li": "متميز" }
+          ]
+        },
+        {
+          "name": "لماذا نختار",
+          "Items": [
+            { "li": "الشحن والإرجاع" },
+            { "li": "تسوق آمن" },
+            { "li": "معرض" },
+            { "li": "الشركات التابعة" },
+            { "li": "جهات الاتصال" }
+          ]
+        },
+        {
+          "name": "معلومات المتجر",
+          "Items": [
+            { "li": "متجر تجريبي متعدد العربة ، متجر تجريبي ، مصر 345-659" },
+            { "li": "اتصل بنا: 123-456-7898" },
+            { "li": "Support@Fiot.Com :ارسل لنا عبر البريد الإلكتروني" },
+            { "li": "فاكس: 123456" }
+          ]
+        }
+      ]
+
+  }
+  }
+}
+

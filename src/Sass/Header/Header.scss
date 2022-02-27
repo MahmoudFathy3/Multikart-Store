@@ -1,0 +1,64 @@
+header{
+  background-color: var(--background-main);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  .left {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    color: #FFF;
+    h3{
+      margin: 0;
+      font-size: 14px;
+    }
+    span{
+      font-size: 14px;
+    }
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 20px;
+    color: #FFF;
+    .header-icon{
+      margin-right: 5px;
+    }
+    .Account{
+      padding: 5px;
+      span{
+        cursor: pointer;
+      }
+      .Account-List{
+        position:absolute;
+        top: 47px;
+        background:white;
+        border-top: 3px solid var(--background-main);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+        z-index: 4;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s linear;
+      }
+    ul{
+      list-style: none;
+      padding: {
+        left: 15px;
+        right: 15px;
+      };
+      li{
+        padding: 5px;
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+    &:hover  .Account-List{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+}
+

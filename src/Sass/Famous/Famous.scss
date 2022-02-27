@@ -1,0 +1,72 @@
+.Famous{
+  padding: 50px 0;
+  h3{
+    text-align: center;
+    margin: 20px 0 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+  .mySwiper{
+    @media (min-width: 768px) {
+      &{
+        flex: 100% !important;
+      }
+    };
+    .List-Famous{
+      position: relative;
+      cursor: pointer;
+      @media (max-width: 767px) {
+        &{
+          width: 100% !important;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px){
+        &{
+          width: 50% !important;
+        }
+      }
+      .Famous-Info{
+        position: absolute;
+        top: 0;
+        background-color: var(--background-main);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+        .icon-Famous{
+          font-size: 50px;
+          z-index: 4;
+          color: #FFF;
+        } 
+      }
+      &:hover  .icon-Famous{
+        animation: spain .4s linear;
+      }
+      &:hover .Famous-Info{
+        opacity: .54;
+        visibility: visible;
+      }
+      img{
+        width: 100%;
+        height: 200px;
+      }
+    }
+  }
+}
+  
+  
+  @keyframes spain {
+    0%{
+      transform: rotate(0) scale(1);
+    }
+    100%{
+      transform: scale(3) rotate(190deg);
+    }
+  }

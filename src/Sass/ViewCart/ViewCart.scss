@@ -1,0 +1,118 @@
+.View-Cart{
+  padding: 10px;
+
+  .Cart-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    .List-View{
+      display: flex;
+      flex-direction: row;
+      column-gap: 50px;
+      padding: 10px;
+      @media (max-width: 768px) {
+        &{
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      &:not(:last-of-type){
+        border-bottom: 1px solid #DDD
+      }
+      .View-info{
+        flex: 6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        @media (max-width: 768px) {
+          &{
+            order: 1;
+          }
+        }
+        h3{
+          padding: 0 5px;
+          font-size: 35px;
+          font-weight: bold;
+        }
+        p{
+          line-height: 1.8;
+          color: #555;
+          font-size: 17px;
+          margin: {
+            left: 10px;
+            right: 10px;
+          };
+        }
+        span{
+          padding: 5px;
+          margin: 0 5px;
+        }
+        span button{
+          padding: 10px 15px;
+          padding: 10px 30px;
+          border: 1px solid var(--background-main);
+          border-radius: 4px;
+          background: var(--background-main);
+          cursor: pointer;
+          color: #EEE;
+          position: relative;
+          z-index: 1;
+          &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background-color: var(--hover-main);
+            transition: .5s;
+            z-index: -1;
+          }
+          &:hover::before{
+            height: 100%;
+          }
+          }
+      }
+      .View-Image{
+        flex: 4;
+      }
+    }
+    .View-Total{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      button{
+        padding: 10px 15px;
+        padding: 10px 30px;
+        border: 1px solid var(--background-main);
+        border-radius: 4px;
+        background: var(--background-main);
+        cursor: pointer;
+        color: #EEE;
+        position: relative;
+        z-index: 1;
+        &::before{
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 0;
+          background-color: var(--hover-main);
+          transition: .5s;
+          z-index: -1;
+        }
+        &:hover::before{
+          height: 100%;
+        }
+      }
+    }
+  }
+  img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}

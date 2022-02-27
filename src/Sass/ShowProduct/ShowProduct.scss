@@ -1,0 +1,137 @@
+.Show-Product{
+  .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0, .75);
+    z-index: 3000;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    &.show{
+      visibility: visible;
+      opacity: 1;  
+    }
+  }
+  .List-Product{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;  
+    z-index: 3022;
+    @media (max-width: 767px) {
+      &{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+      &{
+        width: 90%;
+      } 
+    }
+    @media (min-width: 992px) and (max-width: 1199px){
+      &{
+        width: 70%;
+      } 
+    }
+    &.show{
+      visibility: visible;
+      opacity: 1;  
+    }
+  .Modal-image{
+      flex: 3; 
+      @media (max-width: 768px) {
+        &{
+          flex: 100%;
+        }
+      }
+        img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+
+  .Modal-wrapper{
+      display:  flex;
+      flex-direction: column;
+      flex: 4;
+      padding: 10px;
+      margin-inline-start: 10px;
+      @media (max-width: 768px) {
+        &{
+          flex: 100%;
+        }
+      }
+      h3{
+        color: #333;
+      }
+      p{
+        color: #555;
+        line-height: 1.6;
+        margin: 5px 0;
+      }
+      span{
+        font-weight: 200;
+        margin: 10px 0;
+      }
+    }
+    button{
+      padding: 10px 15px;
+      border: 1px solid var(--background-main);
+      border-radius: 4px;
+      background: var(--background-main);
+      cursor: pointer;
+      color: #EEE;
+      position: relative;
+      z-index: 1;
+      &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: var(--hover-main);
+        transition: .5s;
+        z-index: -1;
+      }
+      &:hover::before{
+        height: 100%;
+      }
+    }
+    .Close-Modal{
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: var(--background-main);
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span{
+        color: #DDD;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover{
+          color: red;
+        }
+      }
+    }
+  }
+}
+
