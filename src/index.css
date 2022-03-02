@@ -125,10 +125,9 @@ nav {
     top: 0;
     width: 100%;
     z-index: 2000; }
-  nav .row {
+  nav .Logo {
     display: flex;
-    align-items: center;
-    flex-wrap: nowrap; }
+    align-items: center; }
   nav .List-Menu {
     list-style: none;
     padding: 10px;
@@ -276,7 +275,7 @@ nav {
   nav .Toggle {
     display: none;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -305,6 +304,9 @@ nav {
         cursor: pointer; }
       nav .Toggle .Shopping-Cart .Cart-info {
         position: absolute;
+        top: 27px;
+        left: 50%;
+        transform: translateX(-50%);
         background-color: #FFF;
         z-index: 2000;
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -321,10 +323,6 @@ nav {
           background-color: transparent; }
         nav .Toggle .Shopping-Cart .Cart-info::-webkit-scrollbar-thumb {
           background-color: transparent; }
-        nav .Toggle .Shopping-Cart .Cart-info.right {
-          right: 0; }
-        nav .Toggle .Shopping-Cart .Cart-info.left {
-          left: 0; }
         @media (max-width: 768px) {
           nav .Toggle .Shopping-Cart .Cart-info {
             width: 400px; } }
@@ -463,6 +461,18 @@ nav {
   .ListSlide img {
     width: 100%;
     height: 600px; }
+    @media (max-width: 575px) {
+      .ListSlide img {
+        height: 200px; } }
+    @media (min-width: 576px) and (max-width: 767px) {
+      .ListSlide img {
+        height: 300px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .ListSlide img {
+        height: 400px; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .ListSlide img {
+        height: 500px; } }
 
 .List-Caption {
   position: absolute;
@@ -818,18 +828,9 @@ nav {
     font-weight: bold;
     color: #666;
     text-transform: uppercase; }
-  @media (min-width: 768px) {
-    .Famous .mySwiper {
-      flex: 100% !important; } }
   .Famous .mySwiper .List-Famous {
     position: relative;
     cursor: pointer; }
-    @media (max-width: 767px) {
-      .Famous .mySwiper .List-Famous {
-        width: 100% !important; } }
-    @media (min-width: 768px) and (max-width: 991px) {
-      .Famous .mySwiper .List-Famous {
-        width: 50% !important; } }
     .Famous .mySwiper .List-Famous .Famous-Info {
       position: absolute;
       top: 0;

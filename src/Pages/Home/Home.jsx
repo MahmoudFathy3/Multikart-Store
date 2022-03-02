@@ -16,7 +16,7 @@ const Home = ({HandleCart,HandleShowProduct,isOpenModel}) => {
       <SlideShow slideShow={products.slideShow}/>
       <About about={products.abouts}/>
       <Product Product={products.Products} heading={products.Heading_Products} HandleCart={HandleCart}
-      HandleShowProduct={HandleShowProduct} isOpenModel={isOpenModel}/>
+      HandleShowProduct={HandleShowProduct} isOpenModel={isOpenModel} dir={products.dir}/>
       <Featurn Featurn={products.Features}/>
       <Section Product={products.Products} dir={products.dir} 
       HandleShowProduct={HandleShowProduct} isOpenModel={isOpenModel} HandleCart={HandleCart}/>

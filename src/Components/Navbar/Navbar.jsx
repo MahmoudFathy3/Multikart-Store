@@ -60,7 +60,7 @@ const Navbar = ({HandleLanguage, cart, RemoveCart}) => {
     <nav>
       <div className="container">
         <div className='row'>
-          <div className='Logo  col-3 '> 
+          <div className='Logo col col-sm-6 col-md-4'> 
           {Logo}
           </div>
         <ul className='col List-Menu' > 
@@ -96,7 +96,7 @@ const Navbar = ({HandleLanguage, cart, RemoveCart}) => {
           <div className='overLay'></div>
           <div className="Shopping-Cart">
                   <AiOutlineShoppingCart className="Cart-Icons"/>
-                <div className={`Cart-info ${products.dir === "ltr" ? 'right' : 'left'}`}>
+                <div className={`Cart-info `}>
                   {ListCart}
                   { cart.length !== 0 && 
                   <div className="Cart-View">

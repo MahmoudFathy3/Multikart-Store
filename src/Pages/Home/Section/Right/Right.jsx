@@ -2,6 +2,7 @@ import React from 'react'
 import {AiOutlineHeart,AiOutlineSearch} from 'react-icons/ai'
 
 const Right = ({Product,Swiper, SwiperSlide, dir, HandleShowProduct, isOpenModel, HandleCart }) => {
+  
   const HandleProductsModal = (item) =>{
     HandleShowProduct(item)
     isOpenModel()

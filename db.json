@@ -65,71 +65,71 @@
       },
       "Products": [
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug1",
+          "price": "1400",
           "image": "./img/2.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug2",
+          "price": "400",
           "image": "./img/3.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug3",
+          "price": "700",
           "image": "./img/4.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug4",
+          "price": "900",
           "image": "./img/5.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug5",
+          "price": "1000",
           "image": "./img/5.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug6",
+          "price": "1100",
           "image": "./img/8.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug7",
+          "price": "500",
           "image": "./img/9.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug8",
+          "price": "2000",
           "image": "./img/9.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug9",
+          "price": "3040",
           "image": "./img/10.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
         },
         {
-          "name": "Shrug",
-          "price": "10400.00",
+          "name": "Shrug10",
+          "price": "100",
           "image": "./img/11.jpg",
           "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           "button": "Add To Cart"
@@ -249,83 +249,82 @@
       },
       "Products": [
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "1ملابس",
+          "price": "1400",
           "image": "./img/2.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "2ملابس",
+          "price": "400",
           "image": "./img/3.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "3ملابس",
+          "price": "700",
           "image": "./img/4.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "4ملابس",
+          "price": "900",
           "image": "./img/5.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "5ملابس",
+          "price": "1000",
           "image": "./img/5.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "6ملابس",
+          "price": "1100",
           "image": "./img/8.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "7ملابس",
+          "price": "500",
           "image": "./img/9.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "8ملابس",
+          "price": "2000",
           "image": "./img/9.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠",
+          "name": "9ملابس",
+          "price": "3040",
           "image": "./img/10.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
 
         },
         {
-          "name": "ملابس",
-          "price": "جنيه ١٠٤٠٠.٠٠ ",
+          "name": "10ملابس",
+          "price": "100 ",
           "image": "./img/11.jpg",
           "button": "أضف إلى العربة",
           "discription": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي"
-
         }
       ],
       "Features": {

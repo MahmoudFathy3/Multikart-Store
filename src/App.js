@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import ViewCart from "./Components/ViewCart/ViewCart";
 import Checkout from "./Components/Checkout/Checkout";
 import ShowProduct from "./Components/ShowProduct/ShowProduct";
+import {HandlerNumber} from './Components/ChangeNum/ChangeNum'
 
 function App() {
   const [val, setVal]= useState('en')
@@ -18,7 +19,6 @@ function App() {
   const {products} = useSelector(state => state.Products)
   const dispatch = useDispatch();
 
-  
   useEffect(() => {
     dispatch(getProducts(val))
 
@@ -26,7 +26,6 @@ function App() {
     const Topbtn = document.querySelector('.Top-Page');
     window.onscroll = () => {
       if(window.scrollY > 600){
-        console.log('yes');
         Topbtn.classList.add('Top');
       }else {
         Topbtn.classList.remove('Top');
@@ -39,18 +38,22 @@ function App() {
         })
       })
     }
-
   },[dispatch,val])
+  
+  useEffect(() => {
+    products.dir === "rtl" && HandlerNumber(document.body);
+  });
+  
+  
+// Add To Cart
+const HandleCart = (item) => {
+  setCart([...cart, item])
+}
 
 // Toggle Language
   const HandleLanguage = (e) => {
     setVal(e.target.value)
     document.querySelector('.Toggle .overLay').classList.remove('open')
-  }
-
-// Add To Cart
-  const HandleCart = (item) => {
-    setCart([...cart, item])
   }
 
 // Remove cart
@@ -74,10 +77,10 @@ function App() {
   window.onload = () => {
     document.querySelector('.Loading').style = `visibility: hidden;  opacity: 0;`
   }
-
+  
   return (
     <div className="App" dir={products.dir} >
-    <BrowserRouter>
+      <BrowserRouter>
       <div className="Top-Page">
       <button>{products.dir === "ltr" ? "Top" : "أعلي"}</button>
       </div>

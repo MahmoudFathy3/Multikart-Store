@@ -9,10 +9,9 @@ nav{
       width: 100%;
       z-index: 2000;
     }
-  .row{
+  .Logo{
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
   }
   .List-Menu{
     list-style: none;
@@ -201,7 +200,7 @@ nav{
   .Toggle{
     display: none;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     padding: {
       top: 10px;
       bottom: 10px;
@@ -237,6 +236,9 @@ nav{
       }
       .Cart-info{
         position: absolute;
+        top: 27px;
+        left: 50%;
+        transform: translateX(-50%);
         background-color: #FFF;
         z-index: 2000;
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -255,12 +257,6 @@ nav{
         }
         &::-webkit-scrollbar-thumb {
           background-color: transparent;
-        }
-        &.right{
-          right: 0;
-        }
-        &.left{
-          left: 0;
         }
         @media (max-width: 768px) {
           &{

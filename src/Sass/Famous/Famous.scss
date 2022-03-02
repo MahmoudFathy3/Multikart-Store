@@ -9,24 +9,15 @@
     text-transform: uppercase;
   }
   .mySwiper{
-    @media (min-width: 768px) {
-      &{
-        flex: 100% !important;
-      }
-    };
     .List-Famous{
       position: relative;
       cursor: pointer;
-      @media (max-width: 767px) {
-        &{
-          width: 100% !important;
-        }
-      }
-      @media (min-width: 768px) and (max-width: 991px){
-        &{
-          width: 50% !important;
-        }
-      }
+      // width: calc(100%  / 4)  !important;
+      // @media (max-width: 575px) {
+      //   &{
+      //     width: calc(100%  / 1)  !important;
+      //   }
+      // }
       .Famous-Info{
         position: absolute;
         top: 0;

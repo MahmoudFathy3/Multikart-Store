@@ -1,30 +1,29 @@
 import React, {useEffect} from 'react';
+import {HandlerNumber} from '../ChangeNum/ChangeNum'
+
 
 const ViewCart = ({cart, dir, RemoveCart}) => {
 
-  useEffect(() =>{
-      const Total = document.querySelectorAll(".List-View .price");
-      const Price = document.querySelector(".View-Cart .View-Total h3 span");
-      const RemoveBtn = document.querySelector(".List-View  .button");
-        Total.forEach(item => {
-            Price.innerHTML = Number(Price.innerHTML) + Number(item.innerHTML);
-          })
+  useEffect(() => {
+    dir === "rtl" && HandlerNumber(document.body)
 
-          if(RemoveBtn){
-            RemoveBtn.onClick = () => {
-              Total.forEach(item => {
-                Price.innerHTML = Number(Price.innerHTML) - Number(item.innerHTML);
-              })
-            }
-          }
-        },[])
+    const Price = document.querySelector(".View-Cart .Price");
+    let Total = 0;
+    cart?.map(item => {
+      Total += Number(item.price); 
+    })
+    if(Price){
+      Price.innerHTML = Total.toString() ;
+    }
+    
+  },[dir,cart])
 
   const List = cart.length ? cart.map((item,index) => {
     return(
       <div className="List-View" key={index}>
         <div className="View-info">
           <h3>{item.name}</h3>
-          <span className="price">{item.price}</span>
+          <span>{item.price}</span>
           <p>{item.discription}</p>
           <span>
             <button className="button" onClick={() => RemoveCart(index)}>{ dir === "ltr" ? "Remove" : "حذف"}</button>
@@ -45,7 +44,8 @@ const ViewCart = ({cart, dir, RemoveCart}) => {
           
           {
             cart.length ? <div className="View-Total">
-            <h3>Total: <span></span></h3>
+            <h3>{ dir === "ltr" ? "Total:" : "المجموع:"} <span className="Price"></span></h3>
+            
             <button>{ dir === "ltr" ? "Check out" : "الدفع"}</button>
           </div> : ""
           }
@@ -55,4 +55,4 @@ const ViewCart = ({cart, dir, RemoveCart}) => {
   )
 }
 
-export default React.memo(ViewCart)
+export default ViewCart

@@ -24,7 +24,7 @@ const Product = ({heading, Product, HandleCart, HandleShowProduct, isOpenModel})
       </div>
     )
   })
-  
+  // {() => HandleCart(item)}
   return (
     <div className='Products'>
       <div className='container'>

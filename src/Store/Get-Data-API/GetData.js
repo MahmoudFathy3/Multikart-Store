@@ -4,7 +4,7 @@ import axios from 'axios';
 export const getProducts = createAsyncThunk('Products/getProducts', async (lang,thunkAPI)=> {
     const {rejectWithValue} = thunkAPI
     try{
-        const res = await axios.get('http://localhost:3000/lang');
+        const res = await axios.get('http://localhost:4000/lang');
         if(lang === 'en'){
             return res.data.en
         } else if(lang === 'ar'){
