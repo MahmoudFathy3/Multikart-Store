@@ -74,36 +74,32 @@ html{
 }
 
 // Variables
-@import './variables/variables.scss';
+@import './variables/_variables.scss';
 // Header
-@import './Header/Header.scss';
+@import './Layout/Header/_Header.scss';
 //Navbar
-@import './Navbar/Navbar.scss';
+@import './Layout/Navbar/_Navbar.scss';
 //Slide Show
-@import './SlideShow/SlideShow.scss';
+@import './Pages/Home/SlideShow/_SlideShow.scss';
 //about
-@import './About/About.scss';
+@import './Pages/Home/About/_About.scss';
 // Product
-@import './Product/Product.scss';
+@import './Pages/Home/Product/_Product.scss';
 //Featurn
-@import './Featurn/Featurn.scss';
+@import './Pages/Home/Featurn/_Featurn.scss';
 //section
-@import './Section/Section.scss';
+@import './Pages/Home/Section/_Section.scss';
 //People Famous
-@import './Famous/Famous.scss';
+@import './Pages/Home/Famous/_Famous.scss';
 //View Cart
-@import './ViewCart/ViewCart.scss';
+@import './Pages/Home/ViewCart/_ViewCart.scss';
 //Show Product
-@import './ShowProduct/ShowProduct.scss';
+@import './Pages/Home/ShowProduct/_ShowProduct.scss';
 // Footer
-@import './Footer/Footer.scss';
+@import './Layout/Footer/_Footer.scss';
 
 
-@keyframes Loading {
-  0%{
-      transform: rotate(0);
-  }
-  100%{
-      transform: rotate(360deg);
-  }
-}
+// Animation
+@import "./Animation/Loading";
+
+
